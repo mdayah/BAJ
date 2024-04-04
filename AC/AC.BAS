@@ -27,7 +27,7 @@ DECLARE SUB mprYear ()
 
     WIDTH 80, 50
 
-    CALL MhOpenScreenLib("C:\Payroll\AC\AC.SLB" + CHR$(0), e)
+    CALL MhOpenScreenLib("C:\AC\AC.SLB" + CHR$(0), e)
     CALL MhBlinkOff
     CALL MhShadowOn(0, 8)
 
